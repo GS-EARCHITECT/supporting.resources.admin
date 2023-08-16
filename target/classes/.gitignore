@@ -1,4 +1,9 @@
-/store_stock_movement_mgmt/
-/consignment_master_mgmt/
+/common/
 /consignment_details_mgmt/
-/resource_location_mgmt/
+/consignment_master_mgmt/
+/main/
+/resource_location_mgmt_admin/
+/resource_location_mgmt_public/
+/store_order_inwards_mgmt/
+/store_order_outwards_mgmt/
+/store_stock_movement_mgmt/
