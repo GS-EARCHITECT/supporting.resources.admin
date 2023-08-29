@@ -1,4 +1,4 @@
-package resource_location_mgmt_admin.model.master;
+package resource_location_mgmt.model.master;
 
 import java.io.Serializable;
 import javax.persistence.*;

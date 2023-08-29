@@ -1,4 +1,4 @@
-package resource_location_mgmt_admin.model.dto;
+package resource_location_mgmt.model.dto;
 
 import java.io.Serializable;
 

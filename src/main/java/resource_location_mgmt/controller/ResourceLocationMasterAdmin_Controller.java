@@ -1,4 +1,4 @@
-package resource_location_mgmt_admin.controller;
+package resource_location_mgmt.controller;
 
 import java.util.ArrayList;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,9 +14,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import resource_location_mgmt_admin.model.dto.ResourceLocationMaster_DTO;
-import resource_location_mgmt_admin.model.master.ResourceLocationMasterPK;
-import resource_location_mgmt_admin.services.I_ResourceLocationMasterAdmin_Service;
+import resource_location_mgmt.model.dto.ResourceLocationMaster_DTO;
+import resource_location_mgmt.model.master.ResourceLocationMasterPK;
+import resource_location_mgmt.services.I_ResourceLocationMasterAdmin_Service;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

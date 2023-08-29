@@ -1,12 +1,13 @@
-package resource_location_mgmt_admin.model.repo;
+package resource_location_mgmt.model.repo;
 
 import java.util.ArrayList;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import resource_location_mgmt_admin.model.master.ResourceLocationMaster;
-import resource_location_mgmt_admin.model.master.ResourceLocationMasterPK;
+
+import resource_location_mgmt.model.master.ResourceLocationMaster;
+import resource_location_mgmt.model.master.ResourceLocationMasterPK;
 
 @Repository("resourceLocationMasterAdminRepo")
 public interface ResourceLocationMasterAdmin_Repo extends JpaRepository<ResourceLocationMaster, ResourceLocationMasterPK> 

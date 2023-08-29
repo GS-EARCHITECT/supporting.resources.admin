@@ -1,8 +1,9 @@
-package resource_location_mgmt_admin.services;
+package resource_location_mgmt.services;
 
 import java.util.ArrayList;
-import resource_location_mgmt_admin.model.dto.ResourceLocationMaster_DTO;
-import resource_location_mgmt_admin.model.master.ResourceLocationMasterPK;
+
+import resource_location_mgmt.model.dto.ResourceLocationMaster_DTO;
+import resource_location_mgmt.model.master.ResourceLocationMasterPK;
 
 public interface I_ResourceLocationMasterAdmin_Service
 {

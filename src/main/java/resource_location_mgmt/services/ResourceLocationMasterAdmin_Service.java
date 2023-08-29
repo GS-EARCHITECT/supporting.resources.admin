@@ -1,4 +1,4 @@
-package resource_location_mgmt_admin.services;
+package resource_location_mgmt.services;
 
 import java.util.ArrayList;
 import java.util.Optional;
@@ -12,10 +12,10 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import resource_location_mgmt_admin.model.dto.ResourceLocationMaster_DTO;
-import resource_location_mgmt_admin.model.master.ResourceLocationMaster;
-import resource_location_mgmt_admin.model.master.ResourceLocationMasterPK;
-import resource_location_mgmt_admin.model.repo.ResourceLocationMasterAdmin_Repo;
+import resource_location_mgmt.model.dto.ResourceLocationMaster_DTO;
+import resource_location_mgmt.model.master.ResourceLocationMaster;
+import resource_location_mgmt.model.master.ResourceLocationMasterPK;
+import resource_location_mgmt.model.repo.ResourceLocationMasterAdmin_Repo;
 
 @Service("resourceLocationMasterServ")
 @Scope(value = "prototype", proxyMode = ScopedProxyMode.TARGET_CLASS)
