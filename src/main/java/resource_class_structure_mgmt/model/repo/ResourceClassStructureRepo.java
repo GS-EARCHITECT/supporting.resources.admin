@@ -18,7 +18,7 @@ public interface ResourceClassStructureRepo extends CrudRepository<ResourceClass
 	ArrayList<ResourceClassStructure> getSelectResourceClassStructuresByParties(@Param("ids") ArrayList<Long> ids);
 	
 	@Query(value = "SELECT * FROM RESOURCE_CLASS_STRUCTURE a WHERE a.par_resource_class_seq_no in :ids order by resource_class_seq_no", nativeQuery = true)
-	ArrayList<ResourceClassStructure> getSelectResourceClassesByParents(@Param("ids") ArrayList<Long> ids);
+	ArrayList<ResourceClassStructure> getSelectResourceClassStructuresByParents(@Param("ids") ArrayList<Long> ids);
 	
 	@Query(value = "DELETE FROM RESOURCE_CLASS_STRUCTURE WHERE (a.resource_class_seq_no in :ids and a.par_resource_class_seq_no in :pids)", nativeQuery = true)
 	void delSelectResourceClassStructures(@Param("ids") ArrayList<Long> ids, @Param("pids") ArrayList<Long> pids);

@@ -77,7 +77,7 @@ public class ResourceClassStructure_Service implements I_ResourceClassStructure_
 	
 	public ArrayList<ResourceClassStructure_DTO> getSelectResourceClassStructuresByParents(ArrayList<Long> ids)
     {
-		ArrayList<ResourceClassStructure> lDetails = resourceClassStructureRepo.getSelectResourceClassesByParents(ids);
+		ArrayList<ResourceClassStructure> lDetails = resourceClassStructureRepo.getSelectResourceClassStructuresByParents(ids);
 		ArrayList<ResourceClassStructure_DTO> resourceClassDetailsDTOs = lDetails != null ? this.getResourceClassStructure_DTOs(lDetails) : null;
 		return resourceClassDetailsDTOs;
 	}
